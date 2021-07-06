@@ -1,4 +1,4 @@
-*{
+body{
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
@@ -57,13 +57,41 @@ nav ul li a:hover{
 h1{
     font-size: 50px;
 }
-p{
-    font-size: 20px;
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+    text-align: justify;
+}
+.header-section{
+    width:50%;
+    margin:0;
+}
+#header{
+    margin-top: 5%;
+    padding-left: 10%;
+}
+.header-section img{
+    width: 80%;
+    padding-left: 5%;
+}
+#about-image img{
+    width: 80%;
+    height: 500px;
+    margin: 15% 20%;
+}
+#about-me{
+    margin: 5% 5% 0% 20%;
+}
+.about-section{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0%;   
 }
 #special-word{
     color: orangered;
 }
-.link{
+.link-btn{
     background-image: linear-gradient(to right, orange,tomato);
     text-decoration: none;
     color: white;
@@ -72,45 +100,22 @@ p{
     padding: 20px 40px;
     border: 1px solid tomato;
 }
-.flexible-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.divider{
-    width: 50%;
-    margin: 5%;
-   
-}
-.divider img{
-    width: 80%;
-    
-}
-.about-section{
-    background-image: url(images/7.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-bottom: 100px;
-    text-align: center;
-}
 
-.my-reciepe-area h1{
-    text-align: center;
-}
-.my-reciepe-area p{
-    text-align: center;
-}
 .my-reciepe-item{
+    box-shadow: 10px 10px 25px rgb(124, 123, 123);
     width: 25%;
     height: 500px;
     border-radius: 5%;
-    box-shadow: 10px 10px 25px rgb(124, 123, 123);
     margin: 3% 5%;
     padding:3%;
 }
 .my-reciepe-item img{
     height: 200px;
     width: 100%;
+}
+.reciepe-header{   
+    text-align: center;
+    margin: 0 30%;
 }
 .my-reciepe-item h3{
     font-size: 25px;
@@ -129,10 +134,22 @@ p{
 }
 
 .div{
-    margin: 5% 5%;
+    border: 15px solid white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+    margin: 0 5%;
 }
+.box-1{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
 .div-item{
-    box-shadow: 10px 10px 25px rgb(139, 137, 137);
+    margin: 0;
+    padding: 0 100px;
 }
 
 .feedback{
