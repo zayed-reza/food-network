@@ -46,6 +46,9 @@ nav ul li a:hover{
 h1{
     font-size: 50px;
 }
+p{
+    font-size: 25px;
+}
 .flexible-container{
     display: flex;
     margin-bottom: 100px;
